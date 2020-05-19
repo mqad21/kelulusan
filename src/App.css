@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.mq-not-found {
+  max-width: 280px
+}
+
+.mq-header {
+  background-image: linear-gradient(to right top, #cff8d4, #c2efcf, #b6e6ca, #abddc5, #a0d4c0);
+  height: 350px;
+  padding: 5% 5% 5% 5%;
+  color: #3f3f3f;
+  position: relative;
+  transition: 200ms ease-in-out;
+}
+
+.mq-header .title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 3.2em;
+  float: left;
+}
+
+.mq-header .image-cont {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.image-cont img {
+  height: 270px;
+  float: right;
+  transition: 200ms ease-in-out;
+}
+
+.mq-header .sub-title {
+  font-size: 0.6em !important;
+  font-weight: 400;
+}
+
+.mq-header .logo-cont {
+  margin-top: 0px !important;
+  transition: 200ms ease-in-out;
+}
+
+.mq-header .logo {
+  margin-top: 0px !important;
+  transition: 200ms ease-in-out;
+}
+
+.mq-header.folded {
+  font-size: 0.6em;
+  height: 200px;
+  padding: 2.5% 5% 2.5% 5%;
+  color: #3f3f3f;
+  position: relative;
+  transition: 200ms ease-in-out;
+}
+
+.mq-header.folded .logo {
+  max-width: 120px !important;
+  transition: 200ms ease-in-out;
+}
+
+.mq-header.folded .image-cont img {
+  height: 180px;
+  transition: 200ms ease-in-out;
+}
+
+.mq-footer {
+  padding: 1.2em;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea:focus, input:focus, button:focus, .btn:focus, .btn:active {
+  outline: 0 !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+
+.mq-search-cont {
+  position: relative;
+  top: -30px;
+  transform: translateX(-50%);
+  left: 50%;
+  border-radius: 7px;
+  transition: 200ms ease-in-out;
+}
+
+.mq-search {
+  height: 60px;
+  outline: 0;
+  border: none;
+  font-size: 1.2em !important;
+  padding: 0;
+}
+
+.mq-search-cont.folded {
+  width: 70%;
+  top: -20px;
+  font-size: 0.8em;
+  transition: 200ms ease-in-out;
+}
+
+.mq-search-cont.folded .mq-search {
+  height: 40px;
+  transition: 200ms ease-in-out;
+}
+
+.mq-search-cont.folded .mq-search-prep {
+  padding: 0.8em;
+  transition: 200ms ease-in-out;
+}
+
+.mq-search-cont.folded .mq-search-prep svg {
+  height: 1.5em;
+}
+
+.mq-search:focus {
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  outline: 0;
+  transition: 200ms ease-in-out;
+}
+
+.mq-search-prep {
+  background-color: white;
+  padding: 1.2rem;
+  color: #b8b8b8;
+  border-radius: 7px 0 0 7px !important;
+  transition: 200ms ease-in-out;
+}
+
+.mq-search-btn {
+  outline: 0;
+  border: none;
+  width: 120px;
+  background-color: #31ca78 !important;
+  background-image: linear-gradient(to right bottom, #57d666, #31ca78, #00bd86, #00af8e, #00a091);
+  border-radius: 0 7px 7px 0 !important;
+  font-size: 1.2em !important;
+  transition: 200ms ease-in-out;
+}
+
+.mq-search-btn:hover {
+  background-image: none;
+}
+
+.mq-letter {
+  width: 70%;
+  margin-top: 1.5em;
+  padding: 5em;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mq-letter-head img {
+  width: 100% !important;
+  margin-bottom: 1em;
+}
+
+.mq-letter h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+.mq-letter-table {
+  margin: 3em 0 3em 0;
+  width: 100%;
+}
+
+.mq-letter-table td {
+  padding: 0.5em 0 0.5em 0;
+}
+
+.mq-letter-table .first-col {
+  width: 30% !important;
+}
+
+.mq-letter-status {
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.mq-letter-sign {
+  margin: 5em 0 0 65%;
+  position: relative;
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes inner-circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.circle {
+  animation: circle 2s linear infinite;
+  transform-origin: 50% 100px;
+  width: 150px;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -75px;
+  height: 250px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.obj-circle img {
+  width: 150px;
+}
+
+.obj-circle {
+  animation: inner-circle 2s linear infinite;
+}
