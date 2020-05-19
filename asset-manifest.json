@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kelulusan/static/css/main.c4de582b.chunk.css",
-    "main.js": "/kelulusan/static/js/main.51f03984.chunk.js",
-    "main.js.map": "/kelulusan/static/js/main.51f03984.chunk.js.map",
+    "main.js": "/kelulusan/static/js/main.f992d81e.chunk.js",
+    "main.js.map": "/kelulusan/static/js/main.f992d81e.chunk.js.map",
     "runtime-main.js": "/kelulusan/static/js/runtime-main.7624cb21.js",
     "runtime-main.js.map": "/kelulusan/static/js/runtime-main.7624cb21.js.map",
     "static/css/2.5ff45428.chunk.css": "/kelulusan/static/css/2.5ff45428.chunk.css",
     "static/js/2.d5abcae6.chunk.js": "/kelulusan/static/js/2.d5abcae6.chunk.js",
     "static/js/2.d5abcae6.chunk.js.map": "/kelulusan/static/js/2.d5abcae6.chunk.js.map",
     "index.html": "/kelulusan/index.html",
-    "precache-manifest.167fc908cc072b4182d5e079d974ff2e.js": "/kelulusan/precache-manifest.167fc908cc072b4182d5e079d974ff2e.js",
+    "precache-manifest.fe0fb325728a62c38a827891aef6b7ed.js": "/kelulusan/precache-manifest.fe0fb325728a62c38a827891aef6b7ed.js",
     "service-worker.js": "/kelulusan/service-worker.js",
     "static/css/2.5ff45428.chunk.css.map": "/kelulusan/static/css/2.5ff45428.chunk.css.map",
     "static/css/main.c4de582b.chunk.css.map": "/kelulusan/static/css/main.c4de582b.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.5ff45428.chunk.css",
     "static/js/2.d5abcae6.chunk.js",
     "static/css/main.c4de582b.chunk.css",
-    "static/js/main.51f03984.chunk.js"
+    "static/js/main.f992d81e.chunk.js"
   ]
 }

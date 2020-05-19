@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kelulusan/precache-manifest.167fc908cc072b4182d5e079d974ff2e.js"
+  "/kelulusan/precache-manifest.fe0fb325728a62c38a827891aef6b7ed.js"
 );
 
 self.addEventListener('message', (event) => {
