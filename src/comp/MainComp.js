@@ -66,11 +66,12 @@ class Main extends Component {
                     action: "found"
                 });
             })
-            .catch(() => {
+            .catch(error => {
                 this.setState({
                     action: "error",
-                    errMess: "Hasil tidak ditemukan."
-                })
+                    errMess: error.message,
+                });
+                console.log("error: ", this.state.errMess);
             })
     }
 

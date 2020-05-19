@@ -17,7 +17,7 @@ class Body extends Component {
     Result = (action) => {
         if (action == "search") {
             return <Loading />
-        } else if (action == "found" && this.props.siswa != null) {
+        } else if (action == "found") {
             return <Letter siswa={this.props.siswa} />;
         } else if (action == "error") {
             return (<Error errMess={this.props.errMess}/>)

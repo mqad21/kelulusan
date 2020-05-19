@@ -11,7 +11,8 @@ class Letter extends Component {
         this.state = {
             isLoading: true,
             iframeUrl: `https://docs.google.com/gview?url=https://kelulusan.smpn2perbaungan.sch.id/api/surat.php?data=${props.siswa.nama}_${props.siswa.no_ujian}_${props.siswa.status}&embedded=true`,
-            iframeHeight: '1000px'
+            iframeHeight: '1000px',
+            random: 0
         }
     }
 
@@ -27,6 +28,20 @@ class Letter extends Component {
         }
         this.setState({
             iframeHeight: iframeHeight
+        });
+
+        var interval = setInterval(() => {
+            if (this.state.isLoading) {
+                this.resetIframe();
+            } else {
+                clearInterval(interval);
+            }
+        }, 5000);
+    }
+
+    resetIframe() {
+        this.setState({
+            random: this.state.random + 1
         })
     }
 
@@ -43,6 +58,7 @@ class Letter extends Component {
                             }} />
                         ) : null}
                         <Iframe
+                            key={this.state.random}
                             id="iframe-letter"
                             url={this.state.iframeUrl}
                             loading="eager"
@@ -51,6 +67,7 @@ class Letter extends Component {
                                     isLoading: false
                                 });
                             }}
+                            importance="high"
                             width="100%"
                             height="100%"
                             frameBorder="0" />
