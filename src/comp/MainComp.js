@@ -42,7 +42,7 @@ class Main extends Component {
     }
 
     getSiswa = (nisn) => {
-        return fetch("http://kelulusan.smpn2perbaungan.sch.id/api/?id=" + nisn)
+        return fetch("https://kelulusan.smpn2perbaungan.sch.id/api/?id=" + nisn)
             .then(response => {
                 if (response.ok) {
                     return response
