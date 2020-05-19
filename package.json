@@ -2,7 +2,7 @@
   "name": "kelulusan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mqad21.github.io/kelulusan",
+  "homepage": "https://mqad21.github.io/kelulusan/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
