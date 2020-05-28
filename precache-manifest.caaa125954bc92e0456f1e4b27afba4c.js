@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1404680ba53288370d889689b455fbbe",
+    "revision": "eda60aebe9c03eb6753da6c80e2fdc9e",
     "url": "/kelulusan/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kelulusan/static/css/2.5ff45428.chunk.css"
   },
   {
-    "revision": "20bda5f57d69094afdfd",
+    "revision": "3594b382163d353a19e6",
     "url": "/kelulusan/static/css/main.914b07f2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kelulusan/static/js/2.d5abcae6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20bda5f57d69094afdfd",
-    "url": "/kelulusan/static/js/main.6215115d.chunk.js"
+    "revision": "3594b382163d353a19e6",
+    "url": "/kelulusan/static/js/main.af357393.chunk.js"
   },
   {
     "revision": "b5e10160859cb7974849",
