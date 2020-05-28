@@ -23,7 +23,7 @@ class Search extends Component {
                         <InputGroupAddon addonType="prepend" className="mq-search-prep row">
                             <IconSearch className="my-auto"/>
                         </InputGroupAddon>
-                        <Input required type="number" name="query" className="mq-search" innerRef={(input) => this.query = input} placeholder="Masukkan NISN Kamu" />
+                        <Input required type="number" name="query" className="mq-search" innerRef={(input) => this.query = input} placeholder="Masukkan 1234 atau 4321" />
                         <InputGroupAddon addonType="prepend">
                             <Button type="submit" className="mq-search-btn">Cari</Button>
                         </InputGroupAddon>

@@ -16,6 +16,7 @@
     }
     .mq-header .logo {
         max-width: 120px !important;
+        max-height: 120px !important;
         /* min-width: 100%; */
         margin: 0 auto !important;
         transition: 200ms ease-in-out;
@@ -97,6 +98,7 @@
     }
     .mq-header.folded .logo {
         max-width: 70px !important;
+        max-height: 70px !important;
     }
     .mq-letter {
         width: 90%;

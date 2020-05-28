@@ -23,7 +23,7 @@ class Header extends Component {
                         Pengumuman Kelulusan
                     <br />
                         <span className="sub-title">
-                            Siswa Kelas IX SMP Negeri 2 Perbaungan<br />
+                            Siswa Kelas IX SMP Negeri X Medan<br />
                         Tahun Pelajaran 2019/2020
                     </span>
                     </h1>

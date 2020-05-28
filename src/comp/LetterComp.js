@@ -10,7 +10,7 @@ class Letter extends Component {
 
         this.state = {
             isLoading: true,
-            iframeUrl: `https://docs.google.com/gview?url=https://kelulusan.smpn2perbaungan.sch.id/api/surat.php?data=${props.siswa.nama}_${props.siswa.no_ujian}_${props.siswa.status}&embedded=true`,
+            iframeUrl: `https://docs.google.com/gview?url=https://api.mqad21.my.id/spenduper/surat.php?data=${props.siswa.nama}_${props.siswa.no_ujian}_${props.siswa.status}&embedded=true`,
             iframeHeight: '1000px',
             random: 0
         }
@@ -36,7 +36,7 @@ class Letter extends Component {
             } else {
                 clearInterval(interval);
             }
-        }, 5000);
+        }, 10000);
     }
 
     resetIframe() {
